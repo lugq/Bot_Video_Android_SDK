@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SampleVideo</string>
+
+    <string name="news_fragment">图文Fragment</string>
+    <string name="video_fragment">视频Fragment</string>
+    <string name="video_search">视频搜索</string>
+
+</resources>
