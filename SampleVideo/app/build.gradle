@@ -25,16 +25,18 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    compile(name: 'bot-video-07121131', ext: 'aar')
+    compile(name: 'bot-video-07261751', ext: 'aar')
 
     compile 'com.android.support:support-v4:25.1.0'
     compile 'com.android.support:appcompat-v7:25.1.0'
 
+    compile 'com.google.code.gson:gson:2.8.0'
     compile 'com.github.bumptech.glide:glide:4.0.0-RC1'
+    compile 'cn.bingoogolapple:bga-refreshlayout:1.1.7'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC1'
 
+    // 优酷视频依赖的 fastjson
     compile 'com.alibaba:fastjson:1.1.56.android'
-    compile 'com.google.code.gson:gson:2.8.0'
 
     testCompile 'junit:junit:4.12'
 }

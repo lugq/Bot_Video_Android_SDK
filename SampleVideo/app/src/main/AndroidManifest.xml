@@ -11,9 +11,11 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
 
         <!--
-        <meta-data android:name="TTC_APPID" android:value="WN13CAAB" />
+        < 图文测试用 AppId >
+        <meta-data android:name="TTC_APPID" android:value="S4EBUTASGJ" />
         -->
-        <meta-data android:name="TTC_APPID" android:value="C56JUIK5J9" />
+        <!-- 视频内容的示例 AppId -->
+        <meta-data android:name="TTC_APPID" android:value="WN13CAAB" />
 
         <activity android:name=".LauncherActivity">
             <intent-filter>
