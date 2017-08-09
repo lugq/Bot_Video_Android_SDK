@@ -16,6 +16,8 @@
         -->
         <!-- 视频内容的示例 AppId -->
         <meta-data android:name="TTC_APPID" android:value="MB7BDCB2" />
+        <!-- 百度的广告Id -->
+        <meta-data android:name="BaiduMobAd_APP_ID" android:value="百度的广告Id" />
 
         <activity android:name=".LauncherActivity">
             <intent-filter>
