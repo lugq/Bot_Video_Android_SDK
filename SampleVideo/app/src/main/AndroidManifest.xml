@@ -15,7 +15,7 @@
         <meta-data android:name="TTC_APPID" android:value="S4EBUTASGJ" />
         -->
         <!-- 视频内容的示例 AppId -->
-        <meta-data android:name="TTC_APPID" android:value="WN13CAAB" />
+        <meta-data android:name="TTC_APPID" android:value="MB7BDCB2" />
 
         <activity android:name=".LauncherActivity">
             <intent-filter>
