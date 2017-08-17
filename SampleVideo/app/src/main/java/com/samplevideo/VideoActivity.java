@@ -20,7 +20,7 @@ public class VideoActivity extends FragmentActivity {
     }
 
     public void openVideoFragment(View view) {
-        IndexFragment mFragment = new IndexFragment();
+        IndexFragment mFragment = IndexFragment.newInstance(IndexFragment.TYPE_VIDEO);
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.add(R.id.container, mFragment);
